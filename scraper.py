@@ -13,7 +13,7 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 
 months = ('jan','feb','apr','apr','may','jun','jul','aug','sep','oct','nov','dec')
 # insert the tripadvisor's website of one attraction 
-driver.get("https://www.tripadvisor.com/Attraction_Review-g187895-d191153-Reviews-or2000-Gallerie_Degli_Uffizi-Florence_Tuscany.html")
+driver.get("")
 
 # function to check if the button is on the page, to avoid miss-click problem
 def check_exists_by_xpath(xpath):
